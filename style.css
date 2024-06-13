@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #777;
+}
+
+.wrapper
+{
+    /* border: 2px solid red; */
+    width: 50%;
+    max-width: 760px auto;
+    margin: 20px auto;
+    border-radius: 3px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    border: 1px solid lightgrey;
+}
+
+.changeBg
+{
+    background-color: yellow;
+}
+
+.changeFt
+{
+    font-style: italic;
+    font-size: 40px;
+}
+
+input
+{
+    color: #777;
+    outline: none;
+    border: 1px solid #777;
+}
+
+input:focus
+{
+    border: 1px solid green;
+}
+
+header
+{
+    text-align: center;
+    background-color: #efefef;
+}
+
+header h2
+{
+    /* border: 2px solid blue; */
+    padding: 40px 0 20px 0;
+    color: #555;
+}
+
+header #search-note input
+{
+    /* border: 2px solid red; */
+    padding: 5px 2px;
+    width: 200px;
+    border-radius: 2px;
+    margin: 10px 0 40px 0;
+}
+
+.note-list ul
+{
+    /* border: 2px solid aqua; */
+    list-style: none;
+    padding: 40px;
+}
+
+.note-list ul li
+{
+    /* border: 2px solid yellow; */
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 0.1px solid #ccc;
+    border-left: 5px solid #efefef;
+}
+
+.note-list ul li p:nth-child(2)
+{
+    /* border: 2px solid red; */
+    text-align: right;
+}
+
+.note-list ul li p i 
+{
+    /* border: 2px solid aqua; */
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.note-list ul li p i.fa-pen-to-square
+{
+    color: #228822;
+}
+
+.note-list ul li p i.fa-xmark
+{
+    color: #DC143c;
+}
+
+.note-list ul li input
+{
+    border: 2px solid chartreuse;
+    display: none;
+    padding: 5px 0;
+    width: 70%;
+    margin: 5px auto 0 auto;
+}
+
+#add-notes
+{
+    padding: 60px 0;
+}
+
+#hide-list
+{
+    /* border: 2px solid chocolate; */
+    margin: 20px;
+}
+
+#hide-list label
+{
+    /* border: 2px solid darkmagenta; */
+    padding: 5px 10px;
+    margin: 10px;
+    border-bottom: 1px solid #777;
+    user-select: none;
+}
+
+#hide-list label:hover
+{
+    /* border: 2px solid blue; */
+    background: #efefef;
+}
+
+#hide-list input[type='checkbox']
+{
+    display: none;
+}
+
+form#add
+{
+    /* border: 2px solid darkorange; */
+    margin-top: 10px;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+form#add input
+{
+    /* border: 2px solid hotpink; */
+    border-radius: 2px;
+}
+
+form#add input[type='text']
+{
+    padding: 5px 0 5px 2px;
+    width: 250px;
+}
+
+form#add input[type='submit']
+{
+    /* border: 2px solid salmon; */
+    padding: 5px 0;
+    width: 70px;
+    background: #6B8E23;
+    color: #fff;
+}
+
+form#add input[type='sumbit']:hover
+{
+    /* border: 2px solid chartreuse; */
+    background: #7c9f34;
+}
+
+
+

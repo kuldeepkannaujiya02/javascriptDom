@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Manager</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/fbef30f57f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+            <!-- <h2 onclick="a()" onmouseover="b()" id="heading">Note Manager</h2> -->
+            <h2 id="heading">Note Manager</h2>
+            <form id="search-note">
+                <input type="text" placeholder="search-note....." />
+            </form>
+        </header>
+
+
+        <div class="note-list" >
+            <ul id="list">
+                <li>
+                    <p>First note</p>
+                    <p>
+                        <i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-xmark"></i>
+                    </p>
+                    <input class="edit-note" type="text" />
+                </li>
+
+                <li>
+                    <p>Second note</p>
+                    <p>
+                        <i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-xmark"></i>
+                    </p>
+                    <input class="edit-note" type="text" />
+                </li>
+
+                <li>
+                    <p>Third note</p>
+                    <p>
+                        <i class="fa-solid fa-pen-to-square"></i><i class="fa-solid fa-xmark"></i>
+                    </p>
+                    <input class="edit-note" type="text" style=" border: 2px solid blue;"/>
+                </li>
+            </ul>
+        </div>
+
+        <div id="hide-list">
+            <label for="hide">Hide notes</label>
+            <input type="checkbox" id="hide" />
+        </div>
+
+        <div id="add-notes">
+            <form id="add">
+                <input type="text" placeholder="Add a note..." id="add-input" />
+                <input type="submit" value="Add" id="add-btn" />
+            </form>
+        </div>
+
+    </div>
+</body>
+
+<script src="script.js"></script>
+
